@@ -47,7 +47,7 @@ function App() {
       {cardsData.map((i) => {
         return <WeatherCards card={i} />;
       })}
-      {/* <WeatherCards cards={weather} /> */}
+      
     </>
   );
 }
